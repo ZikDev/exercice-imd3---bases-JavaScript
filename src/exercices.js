@@ -12,10 +12,10 @@ Créez des variables pour chacune des informations suivantes:
 Pensez donc à utiliser les mots-clés appropriés lorsque vous déclarez les variables (let / const).
 */
 
-const firstName = Victor;
-const lastName = Bertschy;
+const firstName = "Victor";
+const lastName = "Bertschy";
 let age = 18;
-let city = Fribourg;
+let city = "Fribourg";
 
 // -----------------------------------------------------------------------------------
 
@@ -42,8 +42,8 @@ Le but de cette fonction est donc de modifier la valeur de la variable "city" cr
 🚨 Réutilisez bien sûr la variable du 1er exercice.
 */
 
-function changeCity(Newcity) {
-  city = Newcity;
+function changeCity(newCity) {
+  city = newCity;
 }
 
 // -----------------------------------------------------------------------------------
@@ -61,7 +61,7 @@ Indice: vous pouvez vous aider de la "concaténation" (https://developer.mozilla
 */
 
 function fullName() {
-  const concatenation = firstName + "" + lastName;
+  return firstName + " " + lastName;
 }
 
 // <!----- NE PAS TOUCHER - UTILISER POUR LES TESTS ------------!>
