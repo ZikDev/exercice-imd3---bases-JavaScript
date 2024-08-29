@@ -44,6 +44,7 @@ Le but de cette fonction est donc de modifier la valeur de la variable "city" cr
 
 function changeCity(newCity) {
   city = newCity;
+  return city;
 }
 
 // -----------------------------------------------------------------------------------
